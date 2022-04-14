@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+  font family: 'Karma', serif;
+  line-height: 1.5;
+  margin: 0;
+  width: 800px;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #6f00e7;
+  font-size: 2rem;
+}
+
+ol > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 1rem;
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+li {
+  display: grid;
+  border: 3px solid #987ffa;
+  border-radius: 6px;
+}
+
+li p {
+  font-size: 1.4rem;
+}
+
+section p {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+
+.cart {
+  display: flex;
+  background-color: #6f00e7;
+  border-radius: 3em;
+  color: white;
+  text-decoration: none;
+  padding-left: 1.5em;
+  margin: 1rem;
+  width: 50%;
+  border: 3px solid #6f00e7;
+  radius: 3em;
+  flex-wrap: nowrap;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.button {
+  color: #6f00e7;
+a {
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+section {
+  display: flex;
+}
+
+.share {
+  display: flex;
+
+}
+
+.button p {
+  font-size: 1rem
+}
+
+.icons {
+  display: flex;
+  padding-top: 1.5em;
+  align-items: flex-end;
